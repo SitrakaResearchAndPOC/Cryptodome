@@ -1,5 +1,5 @@
 # Cryptodome
-* OS : Ubuntu focal
+* OS : Tested Ubuntu focal (20.04)
 
 ## Installing Dependecies
 ```
