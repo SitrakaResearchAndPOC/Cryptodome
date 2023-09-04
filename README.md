@@ -112,11 +112,22 @@ python3 real_ecdsa.py
 ```
 
 ## TESTING RSA1
-
+```
+wget  https://raw.githubusercontent.com/SitrakaResearchAndPOC/Cryptodome/main/rsa1_main.py
+```
+```
+python3 rsa1_main.py
+```
 
 
 ## TESTING RSA2
 
+```
+wget  https://raw.githubusercontent.com/SitrakaResearchAndPOC/Cryptodome/main/rsa2_main.py
+```
+```
+python3 rsa2_main.py
+```
 
 ## TESTING RSA
 ```
