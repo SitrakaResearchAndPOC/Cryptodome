@@ -31,31 +31,25 @@ wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/Cryptodome/main/key
 wget  https://raw.githubusercontent.com/SitrakaResearchAndPOC/Cryptodome/main/shared_dh.py
 ```
 ```
-python3 keygen_dh -n alice
+python3 keygen_dh.py -n alice
 ```
 ```
 ls
 ```
 ```
-python3 keygen_dh -n bob
+python3 keygen_dh.py -n bob
 ```
 ```
 ls
 ```
 ```
-python3 shared_dh -p alice.pub -s bob.priv -k key1.key
+python3 shared_dh.py -p alice.pub -s bob.priv -k key1.key
 ```
 ```
-python3 shared_dh -p bob.pub -s alice.priv -k key2.key
+python3 shared_dh.py -p bob.pub -s alice.priv -k key2.key
 ```
 
 ## TESTING ECDH
-```
-https://wizardforcel.gitbooks.io/practical-cryptography-for-developers-book/content/asymmetric-key-ciphers/ecc-encryption-decryption.html
-```
-```
-https://wizardforcel.gitbooks.io/practical-cryptography-for-developers-book/content/asymmetric-key-ciphers/ecdh-key-exchange.html
-```
 ```
 pip install tinyec
 ```
@@ -83,22 +77,22 @@ rm -rf *.priv
 rm -rf *.key
 ```
 ```
-python3 keygen_ecdh -n alice
+python3 keygen_ecdh.py -n alice
 ```
 ```
 ls
 ```
 ```
-python3 keygen_ecdh -n bob
+python3 keygen_ecdh.py -n bob
 ```
 ```
 ls
 ```
 ```
-python3 shared_ecdh -p alice.pub -s bob.priv -k key1.key
+python3 shared_ecdh.py -p alice.pub -s bob.priv -k key1.key
 ```
 ```
-python3 shared_ecdh -p bob.pub -s alice.priv -k key2.key
+python3 shared_ecdh.py -p bob.pub -s alice.priv -k key2.key
 ```
 ## TESTING ECDSA
 ```
@@ -155,6 +149,4 @@ python3 real_rsa.py
 * https://www.educative.io/answers/how-to-verify-digital-signature-in-python-using-ecdsa-signingkey
 * https://github.com/Amaterazu7/rsa-python
 * https://gist.github.com/marnix135/582c78891b29186ba4c6882a4bc62822
-
-
 
