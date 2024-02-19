@@ -240,7 +240,32 @@ wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/Cryptodome/main/rea
 ```
 python3 real_csidh.py 
 ```
+# Launching separate mode for csidh sibc
+```
+wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/Cryptodome/main/keygen_csidh_sibc.py
+```
+```
+wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/Cryptodome/main/shared_csidh_sibc.py
+```
 
+```
+keygen_csidh_sibc.py -n alice
+```
+```
+ls
+```
+```
+keygen_csidh_sibc.py -n bob
+```
+```
+ls
+```
+```
+python3 shared_csidh_sibc.py -p alice.pub -s bob.priv -k key1.key
+```
+```
+python3 shared_csidh_sibc.py -p bob.pub -s alice.priv -k key2.key
+```
 
 
 # Documentations
