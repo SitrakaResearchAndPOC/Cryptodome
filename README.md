@@ -8,6 +8,13 @@ apt update
 ```
 apt-get install python3-pip wget
 ```
+```
+mkdir SRC
+```
+```
+cd SRC
+```
+
 
 ##  TESTING DH
 ```
