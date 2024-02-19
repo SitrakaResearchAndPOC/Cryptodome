@@ -247,7 +247,9 @@ wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/Cryptodome/main/key
 ```
 wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/Cryptodome/main/shared_csidh_sibc.py
 ```
-
+```
+rm -rf *.pub *.priv *.key
+```
 ```
 keygen_csidh_sibc.py -n alice
 ```
