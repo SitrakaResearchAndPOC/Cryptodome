@@ -235,7 +235,7 @@ cd ..
 sibc -p p512 -f hvelu -a csidh -s df -e 10 csidh-main
 ```
 ```
-wget https://github.com/SitrakaResearchAndPOC/Cryptodome/blob/main/real_csidh.py
+wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/Cryptodome/main/real_csidh.py
 ```
 ```
 python3 real_csidh.py 
