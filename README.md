@@ -167,6 +167,9 @@ pip3 install progress
 pip3 install sympy
 ```
 ```
+apt-get install git
+```
+```
 git clone https://github.com/Krijn-math/Constant-time-CSURF-CRADS
 ```
 ```
@@ -226,7 +229,13 @@ sibc -p p512 -f hvelu -a csidh -s df -e 10 csidh-main
 sudo pip3 install sibc
 ```
 ```
+cd ..
+```
+```
 sibc -p p512 -f hvelu -a csidh -s df -e 10 csidh-main
+```
+```
+wget https://github.com/SitrakaResearchAndPOC/Cryptodome/blob/main/real_csidh.py
 ```
 ```
 python3 real_csidh.py 
