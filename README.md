@@ -251,13 +251,13 @@ wget https://raw.githubusercontent.com/SitrakaResearchAndPOC/Cryptodome/main/sha
 rm -rf *.pub *.priv *.key
 ```
 ```
-keygen_csidh_sibc.py -n alice
+python3 keygen_csidh_sibc.py -n alice
 ```
 ```
 ls
 ```
 ```
-keygen_csidh_sibc.py -n bob
+python3 keygen_csidh_sibc.py -n bob
 ```
 ```
 ls
