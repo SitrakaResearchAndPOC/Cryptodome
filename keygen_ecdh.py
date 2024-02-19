@@ -47,8 +47,8 @@ def demo():
 
 def help() :
     print("help")
-    print("python3 keygen_ecdh.py -demo")
-    print("python3 keygen_ecdh.py -n <name>")
+    print("python3 keygen_sibc_csidh.py -demo")
+    print("python3 keygen_sibc_csidh.py -n <name>")
     print("-n <name> : name of public and private generated key")
     sys.exit()
 
